@@ -2,13 +2,12 @@ body {
     background-color: #1a472a; 
     color: white; 
 }
-
 header {
     background-color: #0d2818; 
     padding: 20px;
     text-align: center;
     position: relative;
-    padding-top: 80px;
+    padding-top: 90px;
     color: white;
 }
 
@@ -50,7 +49,18 @@ nav ul li a {
 main {
     padding: 20px;
 }
+.animal-gallery {
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 20px; 
+}
 
+.animal-image {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 aside {
     background-color: #0d2818; 
