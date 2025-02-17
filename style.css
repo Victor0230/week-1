@@ -1,6 +1,7 @@
 h1 {
     color: rgb(170, 221, 110);
-    background-color: blue;
+    background-color: rgb(10, 74, 24);
+    margin-bottom: 20px; 
 }
 .kk {
     color: #ff0000;
@@ -57,10 +58,10 @@ footer {
 
 .logo {
     width: 100px;
-    height: 100px;
+    height: 95px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 5px;
+    left: 19px;
 }
 
 header {
