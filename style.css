@@ -92,3 +92,31 @@ footer {
 .kk {
     color: #ff0000;
 }
+
+.circle {
+    width: 10em;
+    height: 10em;
+    background-color: red;
+    border-radius: 100%;
+    animation: move_the_circle 10s infinite;
+    
+}
+    @keyframes move_the_circle {
+        0% {
+        transform: translate(0,0); /* Starting position */
+        }
+        25%{
+            transform: translate(70vw,80vh);
+        }
+        50% {
+        transform: translate(90vw, 80vh);
+        width: 5em;
+        height: 5em;
+        background-color: blue;
+        }
+        100% {
+        transform: translate(0,0);
+        width: 10em;
+        height: 10em;
+        }
+        }
