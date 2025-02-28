@@ -2,60 +2,75 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background: linear-gradient(-45deg, #1d1f1d, #353333, #554949, #484444);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    height: 100vh;
+    overflow: hidden;
 }
-header {
-    background-color: #353333dd; 
-    padding: 20px;
-    text-align: center;
-    position: relative;
-    padding-top: 40px;
-    color: white;
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
-h1 {
-    color: rgb(170, 221, 110);
-    background-color: rgb(10, 74, 24);
-    margin-bottom: 20px; 
+nav {
+    background-color: #554949; 
+    padding: 15px 0; 
+    width: 100%; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
 }
 
-nav {
-    background-color: #554949; /* Dark background for the nav bar */
-    padding: 15px 0; /* Add padding above and below the links */
-    width: 100%; /* Make the nav bar span the full width */
-    position: fixed; /* Fix the nav bar at the top of the page */
-    top: 0; /* Position it at the very top */
-    left: 0; /* Align it to the left */
-    z-index: 1000; }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
 }
+
 
 nav ul li {
-    display: inline;
-    margin-right: 50px;
+    display: inline-block; 
+    margin: 0 60px; 
 }
+
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 10px 15px; 
+    transition: background-color 0.3s ease; 
 }
+
+
+nav ul li a:hover {
+    background-color: #6d5d5d; 
+    border-radius: 5px; 
+}
+
 
 main {
-    padding: -20px;
-    margin-top: 20px;
-}
-
-aside {
-    background-color: #656b67; 
-    padding: 10px;
-    margin-top: 20px;
+    margin-top: 80px; 
+    padding: 20px; 
 }
 
 
 footer {
     background-color: #484444; 
+    color: white; 
+    text-align: center; 
     padding: 10px;
-    text-align: center;
+    position: fixed;
+    bottom: 0; 
+    width: 111%; 
 }
