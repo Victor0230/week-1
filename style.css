@@ -1,9 +1,9 @@
 body {
-    background-color: #1a472a; 
+    background-color: #1d1f1ddd; 
     color: white; 
 }
 header {
-    background-color: #0d2818; 
+    background-color: #353333dd; 
     padding: 20px;
     text-align: center;
     position: relative;
@@ -20,7 +20,7 @@ header {
     margin-bottom: 10px;
     display: block;
 }
-.logo {
+/*.logo {
     width: 100px;
     height: 95px;
     border-radius: 10px;
@@ -29,7 +29,7 @@ header {
     left: 19px;
     z-index: 1;
 }
-
+*/
 h1 {
     color: rgb(170, 221, 110);
     background-color: rgb(10, 74, 24);
@@ -37,7 +37,7 @@ h1 {
 }
 
 nav {
-    background-color: #123524; 
+    background-color: #554949; 
     padding: 10px;
     margin-top: 95px;
 }
@@ -68,13 +68,6 @@ main {
     margin-top: 20px; 
 }
 
-.animal-image {
-    width: 240px; 
-    height: auto; 
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 aside {
     background-color: #0d2818; 
     padding: 10px;
@@ -83,7 +76,7 @@ aside {
 
 
 footer {
-    background-color: #123524; 
+    background-color: #1a1919; 
     padding: 10px;
     text-align: center;
 }
