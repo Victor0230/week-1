@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(-45deg, #080808, #76930e, #554949, #484444);
+    background: linear-gradient(-45deg, #11114b, #585964, #211c5d, #0e0e19);
     background-size: 400% 400%;
-    animation: gradientAnimation 10s ease infinite;
+    animation: gradientAnimation 15s ease infinite;
     height: 100vh;
     overflow: hidden;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 nav {
-    background-color: rgba(29, 28, 28, 0.8); 
+    background-color: rgba(29, 28, 28, 0.549); 
     padding: 15px 0;
     width: 100%;
     position: fixed;
@@ -55,7 +55,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.114);
 }
 
 
@@ -65,12 +65,21 @@ main {
     color: white;
 }
 
+.profile-image{
+    width: 200px;
+    height: auto;
+    border-radius: 50;
+    box-shadow: #211c5d;
+    display: block;
+    margin:20px auto;
+}
+
 
 footer {
-    background-color: rgba(72, 68, 68, 0.8); 
+    background-color: rgba(72, 68, 68, 0.399); 
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
