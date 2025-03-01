@@ -27,9 +27,12 @@ nav ul {
     background-color: rgba(10, 13, 60, 0.304);
     width: 50%;
     text-align: center;
-    border: 3px solid #42424856; 
+    border: 30px solid #42424856; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
-.burger-toggle:checked ~ ul {
-    display: block;
+
+/*Contact page*/
+.contact-container {
+    flex-direction: column; 
+    padding: 20px;
 }

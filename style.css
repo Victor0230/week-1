@@ -13,7 +13,6 @@ body {
     0% {
         background-position: 0% 50%;
     }
-
     50% {
         background-position: 100% 50%;
     }
@@ -183,11 +182,15 @@ footer {
 }
 
 .contact-form button {
-    background: #ffcc00; 
-    color: #11114b; 
+    background: #ffcc00;
+    color: #141434; 
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     font-size: 1rem;
     cursor: pointer;
-    transition: background 0.3s ease;}
+   
+}
+
+
+
