@@ -1,16 +1,33 @@
-.showNav
- {
-     height: 0.8em;
-     width: 1.25em;
-     display: block;
-     border-top: 0.2em solid white;
-     border-bottom: 0.2em solid white;
- }
- .showNav::before {
-    content: '';
-    position: absolute;
-    width: 1.25em;
-    margin-top: 0.3em;
-    border-top: 0.2em solid #fff;
-    }
-    
+.burger-toggle {
+    display: none;
+}
+.burger-icon {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1001;
+}
+.burger-icon .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+nav ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 60px; 
+    right: 20px;
+    background-color: rgba(9, 13, 79, 0.57);
+    width: 50%;
+    text-align: center;
+}
+.burger-toggle:checked ~ ul {
+    display: block;
+}
