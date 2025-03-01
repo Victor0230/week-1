@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Contact me</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
 <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
 </head>
 
 <body>
-    <nav>
+    <nav> 
+        <input type="checkbox" id="burger-toggle" class="burger-toggle">
+   
+        <label for="burger-toggle" class="burger-icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
     <ul>
         <li><a href="index.html"> Home</a></li>
        <li><a href="project.html">Project</a></li>
@@ -19,7 +26,17 @@
     </ul>
 </nav>
 <main>
-
+    <main class="contact-page">
+        <h1>Contact Me</h1>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> Email: victor@example.com</li>
+                    <li><i class="fas fa-phone"></i> Phone: +123 456 7890</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Address: 123 Beauty St, City, Country</li>
+                </ul>
+            </div>
     
 <footer>
     <p>&copy; 2025 Victor. All rights reserved.</p>

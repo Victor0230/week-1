@@ -24,9 +24,11 @@ nav ul {
     position: fixed;
     top: 60px; 
     right: 20px;
-    background-color: rgba(9, 13, 79, 0.57);
+    background-color: rgba(10, 13, 60, 0.304);
     width: 50%;
     text-align: center;
+    border: 3px solid #42424856; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 .burger-toggle:checked ~ ul {
     display: block;
