@@ -24,11 +24,20 @@ nav ul {
     position: fixed;
     top: 60px; 
     right: 20px;
-    background-color: rgba(10, 13, 60, 0.304);
-    width: 50%;
+    background-color: rgba(10, 13, 60, 0.807);
+    width: 60%;
     text-align: center;
-    border: 30px solid #42424856; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.534); 
+    z-index: 1000;
+}
+
+nav ul li {
+    padding: 15px 0;
+}
+
+.burger-toggle:checked ~ ul{
+display:block;
 }
 
 /*Project page*/
