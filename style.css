@@ -107,7 +107,30 @@ footer {
     margin: 20px auto;
     padding: 0 20px;
 }
-
+/*Project page*/
+.projects-page {
+    padding: 40px;
+    background: linear-gradient(45deg, #141434, #1a1a4a);
+    min-height: 100vh;
+}
+.projects-page h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.project img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
 /*contact page*/
 .contact-page main {
     display: flex;
