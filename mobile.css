@@ -31,6 +31,18 @@ nav ul {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
+/*Project page*/
+.projects-page {
+    padding: 40px;
+}
+.projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.project img {
+    height: 150px;
+}
+
 /*Contact page*/
 .contact-container {
     flex-direction: column; 
