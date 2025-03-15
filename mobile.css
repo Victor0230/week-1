@@ -74,3 +74,10 @@ iframe {
     width: 100%;
     height: 100%;
 }
+.validation-grid {
+    grid-template-columns: 1fr;
+}
+
+.validation-item {
+    margin: 10px 0;
+}
